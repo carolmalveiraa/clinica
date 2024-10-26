@@ -1,0 +1,158 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color:white;
+    color:#470247;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, strong, th {
+    color:#470247;
+    text-align: center;
+}
+
+p {
+    margin: 10;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 2px solid aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color:#470247;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    align-items: center;
+}
+form {
+    margin: 20px auto 60px auto;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 20%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="mensagem"], textarea {
+    width: 70%;
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+button {
+    background-color: #470247;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #320032;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color:#470247;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid aqua;
+}
